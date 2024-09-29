@@ -18,7 +18,7 @@ Download the appimage from the offical website
 - Add the URL below to Additional Board Manager URLs text box:
 
 ```bash
-    https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/package_stm_index.json
+    https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json
 ```
 ![Alt Text](../Guide-Photos/STM32_addon.jpg)
 
