@@ -31,7 +31,7 @@ You can now double click the file to launch the Arduino IDE 2 on your Linux mach
 ```bash
     https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/package_stm_index.json
 ```
-![Alt Text](Guide-Photos/STM32_addon.jpg)
+![Alt Text](../Guide-Photos/STM32_addon.jpg)
 
 - Go to Tools > Board > Boards Manager
 
