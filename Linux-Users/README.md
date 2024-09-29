@@ -37,7 +37,7 @@ You can now double click the file to launch the Arduino IDE 2 on your Linux mach
 
 - Search for STM32, select latest version and click Install.
 
-![Alt Text](https://github.com/Abdalla-El-gohary/Programming-Stm32-Using-Arduino-IDE/tree/main/Guide-Photos/board_manager_install.png)
+![Alt Text](../Guide-Photos/board_manager_install.png)
 
 - Once the installation is completed, quit and restart the Arduino IDE.
 
@@ -54,7 +54,7 @@ You can now double click the file to launch the Arduino IDE 2 on your Linux mach
 - Open STM32CubeProgrammer
 - Connect to the stm via St-Link
 
-![Alt Text](https://github.com/Abdalla-El-gohary/Programming-Stm32-Using-Arduino-IDE/tree/main/Guide-Photos/stlink-with-stm.jpg)
+![Alt Text](../Guide-Photos/stlink-with-stm.jpg)
 
 - Upload the bootloader
 
@@ -80,18 +80,18 @@ You can now double click the file to launch the Arduino IDE 2 on your Linux mach
 
 - From the Tools > Board > STM32 Board, select Generic STM32F1 series
 
-![Alt Text](https://github.com/Abdalla-El-gohary/Programming-Stm32-Using-Arduino-IDE/tree/main/Guide-Photos/F103_board_b.png)
+![Alt Text](../Guide-Photos/F103_board_b.png)
 
 - Select Tools > Board Part Number > Blue Pill F103C8
 
-![Alt Text](https://github.com/Abdalla-El-gohary/Programming-Stm32-Using-Arduino-IDE/tree/main/Guide-Photos/F103_part.png)
+![Alt Text](../Guide-Photos/F103_part.png)
 
 - Under USB Support, select CDC (generic "Serial" supersede U(S)ART)
 
-![Alt Text](https://github.com/Abdalla-El-gohary/Programming-Stm32-Using-Arduino-IDE/tree/main/Guide-Photos/F103_USB_Support_b.png)
+![Alt Text](../Guide-Photos/F103_USB_Support_b.png)
 
 - Under Upload method, select Maple DFU Bootloader 2.0
 
-![Alt Text](https://github.com/Abdalla-El-gohary/Programming-Stm32-Using-Arduino-IDE/tree/main/Guide-Photos/STM32F103C8T6-USB-Bootloader-Arduino-Config.png)
+![Alt Text](../Guide-Photos/STM32F103C8T6-USB-Bootloader-Arduino-Config.png)
 
 - Compile the sketch and upload
