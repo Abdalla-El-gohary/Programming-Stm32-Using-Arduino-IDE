@@ -6,22 +6,11 @@ Download from the offical website
 ```
 
 ## 2- Install Arduino IDE
-Download the appimage from the offical website (Linux
-AppImage 64 bits (X86-64))
+Download the appimage from the offical website
 
 ```bash
    https://www.arduino.cc/en/software
 ```
-Before we can launch the editor, we need to first make it an executable file. This is done by:
-
-- right-click the file,
-- choose Properties,
-- select Permissions tab,
-- tick the Allow executing file as program box.
-
-![Alt Text](https://docs.arduino.cc/cec5dab5c3891762d78e57260fdc7317/linux-installation.gif)
-
-You can now double click the file to launch the Arduino IDE 2 on your Linux machine. 
 
 ### Install STM32 Add-on to Arduino IDE
 - In your Arduino IDE, go to File > Preferences
@@ -62,18 +51,22 @@ You can now double click the file to launch the Arduino IDE 2 on your Linux mach
 
 ### Note: The bootloader only needs to be uploaded once. After it’s uploaded, you can proceed to upload sketches or code to the board directly using the Arduino IDE.
 
-## 4- Editing Udev Rules
-- Edit /etc/udev/rules.d/45-maple.rules. 
+## 4- Installing Necessary Drivers
+
+- Download or clone that repo (if you downloaded as ZIP. Extract the contents and rename the folder as “Arduino_STM32)
 ```bash
-    nano /etc/udev/rules.d/45-maple.rules
+    https://github.com/rogerclarkmelbourne/Arduino_STM32
 ```
-- write that rules
-```bash
-  ATTRS{idProduct}=="1001", ATTRS{idVendor}=="0110", MODE="664", GROUP="plugdev"
-  ATTRS{idProduct}=="1002", ATTRS{idVendor}=="0110", MODE="664", GROUP="plugdev"
-  ATTRS{idProduct}=="0003", ATTRS{idVendor}=="1eaf", MODE="664", GROUP="plugdev" SYMLINK+="maple", ENV{ID_MM_DEVICE_IGNORE}="1"
-  ATTRS{idProduct}=="0004", ATTRS{idVendor}=="1eaf", MODE="664", GROUP="plugdev" SYMLINK+="maple", ENV{ID_MM_DEVICE_IGNORE}="1"
+- Copy this folder and paste it in “C:\Users\abdalla\Documents\Arduino\hardware” directory. 
+    -- replace abdalla with your username.
+    -- If the directory Arduino\hardware is not present, then create one.
+
+- Open command prompt with admin rights and navigate to the directory
+```bash 
+    C:\Users\abdalla\Documents\Arduino\hardware\Arduino_STM32\drivers\win
 ```
+- Run the “install_drivers.bat” file first. This will install the Maple DFU Driver and Maple Serial Driver.
+- Also, run the “install_STM_COM_drivers.bat” file to install the STM Serial Driver.
 
 ## 5- Setup Arduino IDE
 - Connect STM32 Blue Pill to your computer USB port.
