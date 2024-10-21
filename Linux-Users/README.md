@@ -65,7 +65,7 @@ You can now double click the file to launch the Arduino IDE 2 on your Linux mach
 ## 4- Editing Udev Rules
 - Edit /etc/udev/rules.d/45-maple.rules. 
 ```bash
-    nano /etc/udev/rules.d/45-maple.rules
+    sudo nano /etc/udev/rules.d/45-maple.rules
 ```
 - write that rules
 ```bash
