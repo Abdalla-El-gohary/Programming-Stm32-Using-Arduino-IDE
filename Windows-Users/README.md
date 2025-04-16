@@ -84,6 +84,8 @@ Download the appimage from the offical website
 ## 5- Setup Arduino IDE
 - Connect STM32 Blue Pill to your computer USB port.
 
+![Alt Text](../Guide-Photos/Programming-STM32F103-Board-(Blue-Pill)-using-USB-Port.jpg)
+
 - From the Tools > Board > STM32 Board, select Generic STM32F1 series
 
 ![Alt Text](../Guide-Photos/F103_board_b.png)
