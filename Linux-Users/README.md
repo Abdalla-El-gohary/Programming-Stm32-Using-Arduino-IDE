@@ -57,11 +57,11 @@ You can now double click the file to launch the Arduino IDE 2 on your Linux mach
 
 - Open STM32CubeProgrammer
 
-![Alt Text](../Guide-Photos/stmprogrammer-guide-stlink.jpg)
+![Alt Text](../Guide-Photos/stmcubeprogrammer-guide-stlink.jpg)
 
 - connect to STM, browse the bootloader path, and start uploading the bootloader
 
-![Alt Text](../Guide-Photos/stmprogrammer-guide.jpg)
+![Alt Text](../Guide-Photos/stmcubeprogrammer-guide.jpg)
 
 ### If you don't have an ST-Link, you can use a TTL instead to upload the bootloader
 

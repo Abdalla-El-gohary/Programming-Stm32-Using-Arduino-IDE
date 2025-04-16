@@ -46,11 +46,11 @@ Download the appimage from the offical website
 
 - Open STM32CubeProgrammer
 
-![Alt Text](../Guide-Photos/stmprogrammer-guide-stlink.jpg)
+![Alt Text](../Guide-Photos/stmcubeprogrammer-guide-stlink.jpg)
 
 - connect to STM, browse the bootloader path, and start uploading
 
-![Alt Text](../Guide-Photos/stmprogrammer-guide.jpg)
+![Alt Text](../Guide-Photos/stmcubeprogrammer-guide.jpg)
 
 ### If you don't have an ST-Link, you can use a TTL instead
 
