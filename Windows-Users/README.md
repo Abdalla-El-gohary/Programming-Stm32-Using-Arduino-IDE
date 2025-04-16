@@ -40,14 +40,27 @@ Download the appimage from the offical website
     https://github.com/rogerclarkmelbourne/STM32duino-bootloader/blob/master/binaries/generic_boot20_pc13.bin
 ```
 
-- Open STM32CubeProgrammer
-- Connect to the stm via St-Link
+- Connect to the STM via St-Link
 
 ![Alt Text](../Guide-Photos/stlink-with-stm.jpg)
 
-- Upload the bootloader
+- Open STM32CubeProgrammer
 
+![Alt Text](../Guide-Photos/stmprogrammer-guide-stlink.jpg)
 
+- connect to STM, browse the bootloader path, and start uploading
+
+![Alt Text](../Guide-Photos/stmprogrammer-guide.jpg)
+
+### If you don't have an ST-Link, you can use a TTL instead
+
+- Switch the STM to programming mode and connect it via TTL
+
+![Alt Text](../Guide-Photos/Blue-Pill-Operating-Modes.png)
+
+![Alt Text](../Guide-Photos/STM32-with-USB-to-Serial-TTL.png)
+
+- Upload the bootloader, then make sure to switch the STM back to operation mode.
 
 ### Note: The bootloader only needs to be uploaded once. After it’s uploaded, you can proceed to upload sketches or code to the board directly using the Arduino IDE.
 
